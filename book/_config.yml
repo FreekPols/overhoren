@@ -19,16 +19,15 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
-      repository_url: "https://github.com/Contemporary-Physicslab/FYPLC" #add your own repo URL here
-      use_repository_button: true
-      use_issues_button : true
+      repository_url: "https://github.com/FreekPols/overhoren" #add your own repo URL here
+      use_repository_button: false
+      use_issues_button : false
       launch_buttons:
         thebe: true
     html_show_copyright: false
     html_last_updated_fmt: '%B %-d, %Y'
   extra_extensions:
     - teachbooks_favourites
-    - sphinx_tudelft_theme
     - sphinx_nb_execution_patterns
 
 
